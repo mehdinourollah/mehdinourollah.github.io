@@ -557,8 +557,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
 
         <script>
-            axios.post('http://51.68.177.131:3000').then(res => {
-                console.log('YEAHHHH')
+            axios.post('http://51.68.177.131:3000/').then(res => {
+                console.log(res)
             })
             Parse.serverURL = 'https://parseapi.back4app.com'; // This is your Server URL
             Parse.initialize(
