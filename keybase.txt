@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/meikineumann
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mehdinourollah.github.io
+  * I am meikineumann (https://keybase.io/meikineumann) on keybase.
+  * I have a public key ASATAbNV1DcubcLTuidVf-5AuQi04ZQxs72TCyPTthDmYQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201301b355d4372e6dc2d3ba27557fee40b908b4e19431b3bd930b23d3b610e6610a",
+      "host": "keybase.io",
+      "kid": "01201301b355d4372e6dc2d3ba27557fee40b908b4e19431b3bd930b23d3b610e6610a",
+      "uid": "1d40193124164561f7d319d208607f19",
+      "username": "meikineumann"
+    },
+    "merkle_root": {
+      "ctime": 1593350279,
+      "hash": "5e1595800c361282f3dfa16c665e2d394aea979fb9a0d7b5bacccd531fc03a5fedaaa7891b5a452663b559ac5c308a16f32991e1981973ca3ca9cd52d461d502",
+      "hash_meta": "1233dfc9d69f7fb9c87b9c8f2f1ff448e0d433c691fdee858d147d85392813cb",
+      "seqno": 16800211
+    },
+    "service": {
+      "entropy": "aNEyHqJ5FbbPU1hVqvlr3wqP",
+      "hostname": "mehdinourollah.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.5.0"
+  },
+  "ctime": 1593350335,
+  "expire_in": 504576000,
+  "prev": "5e0dfa1a4e25e2b8632ae35c7ae7b15da3025568531fdcef55d6f458b211e925",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgEwGzVdQ3Lm3C07onVX/uQLkItOGUMbO9kwsj07YQ5mEKp3BheWxvYWTESpcCBcQgXg36Gk4l4rhjKuNceuexXaMCVWhTH9zvVdb0WLIR6SXEIBINiAqRW+MqfF0H6kxLQ7/PvbKFJquI6Zxb1eBTqtViAgHCo3NpZ8RAdZXY8D37Km6goRmtB1nUZgvJ7q8kvGLCgn+yl/WPSbpHxHCLY46HElwDWEiIg44wHpXrmfRY8Ad1BkahO+HICahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEnB/do5YgZjXYYkpTfOxk6/zU58eyKFq8e9k2FxLTkWo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/meikineumann
