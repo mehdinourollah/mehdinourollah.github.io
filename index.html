@@ -1,7 +1,100 @@
- <div class="container">
+<html lang="en">
+
+<head>
+    <meta name="generator" content="Hugo 0.70.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="noodp">
+    <link rel="canonical" href="/">
+
+
+    <title>
+
+        mehdinourollah
+
+    </title>
+
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+        type="text/css">
+
+
+
+    <link rel="stylesheet" href="index.css">
+
+
+
+    <meta itemprop="name" content="mehdinourollah">
+    <meta itemprop="description" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="meikineumann">
+    <meta name="twitter:description" content="">
+
+
+
+
+
+
+    <!--TODO: FEED READER 
+        <link rel="alternate" type="application/rss+xml" href="/index.xml" title=".sh"> -->
+
+
+
+
+
+    <script data-dapp-detection="">
+        (function () {
+            let alreadyInsertedMetaTag = false
+
+            function __insertDappDetected() {
+                if (!alreadyInsertedMetaTag) {
+                    const meta = document.createElement('meta')
+                    meta.name = 'dapp-detected'
+                    document.head.appendChild(meta)
+                    alreadyInsertedMetaTag = true
+                }
+            }
+
+            if (window.hasOwnProperty('web3')) {
+                // Note a closure can't be used for this var because some sites like
+                // www.wnyc.org do a second script execution via eval for some reason.
+                window.__disableDappDetectionInsertion = true
+                // Likely oldWeb3 is undefined and it has a property only because
+                // we defined it. Some sites like wnyc.org are evaling all scripts
+                // that exist again, so this is protection against multiple calls.
+                if (window.web3 === undefined) {
+                    return
+                }
+                __insertDappDetected()
+            } else {
+                var oldWeb3 = window.web3
+                Object.defineProperty(window, 'web3', {
+                    configurable: true,
+                    set: function (val) {
+                        if (!window.__disableDappDetectionInsertion)
+                            __insertDappDetected()
+                        oldWeb3 = val
+                    },
+                    get: function () {
+                        if (!window.__disableDappDetectionInsertion)
+                            __insertDappDetected()
+                        return oldWeb3
+                    }
+                })
+            }
+        })()</script>
+</head>
+
+<body class="">
+    <div class="container">
         <header class="header">
             <span class="header__inner">
-                <a href="index.html" style="text-decoration: none;">
+                <a href="/" style="text-decoration: none;">
                     <div class="logo">
 
                         <span class="logo__mark">#</span>
@@ -14,16 +107,16 @@
 
                 <span class="header__right">
 
-                    <nav class="menu">
+                    <!-- <nav class="menu">
                         <ul class="menu__inner">
-                            <li><a href="https://ein.sh/posts">posts</a></li>
+                            <li><a href="/posts">posts</a></li>
                         </ul>
-                    </nav>
+                    </nav> -->
 
-                    <span class="menu-trigger">
+                    <span class="menu-trigger hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                            <path d="M0 0h24v24H0z" fill="none" />
-                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                            <path d="M0 0h24v24H0z" fill="none"></path>
+                            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
                         </svg>
                     </span>
 
@@ -32,7 +125,7 @@
                             fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
   3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
-  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z" />
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"></path>
                         </svg>
                     </span>
                 </span>
@@ -46,28 +139,20 @@
                 <div>
 
                     <div>
-                        <!-- &nbsp; <a href="http://wiki.pyrevitlabs.io" target="_blank" rel="noopener" title="Pyrevit"><svg
-                                xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 100.31 108.47"
-                                fill="currentColor" stroke="currentColor" stroke-width="4" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather">
-                                <path class="cls-1"
-                                    d="M73.13,73.46,66.27,67.2,87.1,58.36,77,40.23l15.58,6-.33-16.7L59.26.67,31.12,25.51l4.51,12.7-24-5.64L.59,69.52l60.11,38.3,37.69-42ZM75,17.93A7.09,7.09,0,1,1,67.81,25,7.11,7.11,0,0,1,75,17.93Z" />
-                            </svg></a> &nbsp;&nbsp; <a href="https://twitter.com/eirannejad" target="_blank"
-                            rel="noopener" title="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" class="feather feather-twitter">
+                        &nbsp; <a href="https://t.me/Neumannn" target="_blank" rel="noopener" title="telegram"><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                                 <path
-                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
-                                </path>
-                            </svg></a> &nbsp;&nbsp; <a href="https://github.com/eirannejad" target="_blank"
-                            rel="noopener" title="Github"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" class="feather feather-github">
+                                    d="M22.05 1.577c-.393-.016-.784.08-1.117.235-.484.186-4.92 1.902-9.41 3.64-2.26.873-4.518 1.746-6.256 2.415-1.737.67-3.045 1.168-3.114 1.192-.46.16-1.082.362-1.61.984-.133.155-.267.354-.335.628s-.038.622.095.895c.265.547.714.773 1.244.976 1.76.564 3.58 1.102 5.087 1.608.556 1.96 1.09 3.927 1.618 5.89.174.394.553.54.944.544l-.002.02s.307.03.606-.042c.3-.07.677-.244 1.02-.565.377-.354 1.4-1.36 1.98-1.928l4.37 3.226.035.02s.484.34 1.192.388c.354.024.82-.044 1.22-.337.403-.294.67-.767.795-1.307.374-1.63 2.853-13.427 3.276-15.38l-.012.046c.296-1.1.187-2.108-.496-2.705-.342-.297-.736-.427-1.13-.444zm-.118 1.874c.027.025.025.025.002.027-.007-.002.08.118-.09.755l-.007.024-.005.022c-.432 1.997-2.936 13.9-3.27 15.356-.046.196-.065.182-.054.17-.1-.015-.285-.094-.3-.1l-7.48-5.525c2.562-2.467 5.182-4.7 7.827-7.08.468-.235.39-.96-.17-.972-.594.14-1.095.567-1.64.84-3.132 1.858-6.332 3.492-9.43 5.406-1.59-.553-3.177-1.012-4.643-1.467 1.272-.51 2.283-.886 3.278-1.27 1.738-.67 3.996-1.54 6.256-2.415 4.522-1.748 9.07-3.51 9.465-3.662l.032-.013.03-.013c.11-.05.173-.055.202-.057 0 0-.01-.033-.002-.026zM10.02 16.016l1.234.912c-.532.52-1.035 1.01-1.398 1.36z"
+                                    color="#000" /></svg></a> &nbsp;&nbsp; <a href="https://github.com/mehdinourollah"
+                            target="_blank" rel="noopener" title="Github"><svg xmlns="http://www.w3.org/2000/svg"
+                                width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-github">
                                 <path
                                     d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
                                 </path>
-                            </svg></a> &nbsp;&nbsp; <a href="https://keybase.io/ein" target="_blank" rel="noopener"
-                            title="Pgp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            </svg></a> &nbsp;&nbsp; <a href="https://keybase.io/meikineumann" target="_blank"
+                            rel="noopener" title="Pgp"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 512.002 512.002" fill="currentColor" stroke="currentColor" stroke-width="4"
                                 stroke-linecap="round" stroke-linejoin="round" class="feather">
                                 <path d="M506.478,165.937c-10.68-27.194-30.264-66.431-62.915-98.927c-32.535-32.384-71.356-51.408-98.194-61.666
@@ -80,15 +165,15 @@
 			c27.735,27.604,44.62,61.567,53.9,85.197c5.791,14.748,2.272,31.503-8.965,42.687l-79.486,79.114
 			c-11.575,11.519-28.851,14.887-44.016,8.58c-12.507-5.202-24.62-11.382-36-18.367c-9.413-5.778-21.729-2.83-27.507,6.584
 			c-5.778,9.414-2.831,21.73,6.583,27.508c13.152,8.072,27.136,15.207,41.562,21.207c30.142,12.539,64.525,5.8,87.595-17.161
-			l79.486-79.113C511.044,229.157,518.101,195.534,506.478,165.937z" />
-                            </svg></a> &nbsp;&nbsp; <a href="mailto:eirannejad@gmail.com" target="_blank" rel="noopener"
-                            title="Email"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+			l79.486-79.113C511.044,229.157,518.101,195.534,506.478,165.937z"></path>
+                            </svg></a> &nbsp;&nbsp; <a href="mailto:mehdinourollah@gmail.com" target="_blank"
+                            rel="noopener" title="Email"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                                 viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
                                 <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
                                 </path>
                                 <polyline points="22,6 12,13 2,6"></polyline>
-                            </svg></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/eirannejad/" target="_blank"
+                            </svg></a> &nbsp;&nbsp; <a href="https://www.linkedin.com/in/mmnourollah/" target="_blank"
                             rel="noopener" title="Linkedin"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                 height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                                 stroke-linecap="round" stroke-linejoin="round" class="feather feather-linkedin">
@@ -97,19 +182,7 @@
                                 </path>
                                 <rect x="2" y="9" width="4" height="12"></rect>
                                 <circle cx="4" cy="4" r="2"></circle>
-                            </svg></a> &nbsp; -->
-
-                        <a target="_blank" title="Linkedin" href="https://www.linkedin.com/in/mmnourollah/"><i
-                                class="fa fa-linkedin fa-1x"></i><span>Linkedin</span></a>
-                        <a target="_blank" title="Gmail" href="mailto:mehdinourollah@gmail.com"><i
-                                class="fa fa-google fa-1x"></i><span>Gmail</span></a>
-                        <a target="_blank" title="Github" href="https://github.com/mehdinourollah"><i
-                                class="fa fa-github fa-1x"></i><span>Github</span></a>
-                        <a target="_blank" title="Telegram" href="https://t.me/Neumannn"><i
-                                class="fa fa-telegram fa-1x"></i><span>Telegram</span></a>
-                        <a target="_blank" title="Skype" href="https://join.skype.com/invite/gz3yIrwO9uqu"><i
-                                class="fa fa-skype fa-1x"></i><span>Skype</span></a>
-
+                            </svg></a> &nbsp;
                     </div>
                 </div>
             </main>
@@ -120,7 +193,9 @@
         <footer class="footer">
             <div class="footer__inner">
                 <div class="footer__content">
-                    <span>&copy; </span>
+                    <span>©
+                        <script>document.write(new Date().getFullYear())</script>
+                    </span>
 
                     <span>Mehdi Nourollah</span>
 
@@ -139,3 +214,18 @@
         </footer>
 
     </div>
+
+
+
+
+
+
+    <script type="text/javascript" src="asset.js" />
+
+
+
+
+
+    </body>
+
+</html>
