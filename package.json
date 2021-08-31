@@ -18,16 +18,9 @@
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
     "extends": [
-      "eslint:recommended"
+      "react-app"
     ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
     "rules": {
       "no-unused-vars": "off"
     }
