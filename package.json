@@ -23,7 +23,7 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
+      "plugin:react/essential",
       "eslint:recommended"
     ],
     "parserOptions": {
