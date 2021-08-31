@@ -23,7 +23,6 @@
       "node": true
     },
     "extends": [
-      "plugin:react/essential",
       "eslint:recommended"
     ],
     "parserOptions": {
