@@ -20,7 +20,7 @@ function Content(props) {
             </svg></a>
             {/*  */}
             &nbsp;&nbsp;&nbsp;
-            <a href="https://api.whatsapp.com/send?phone=989355154892
+            <a href="https://api.whatsapp.com/send?phone=905528205676
 " target="_blank" rel="noopener" title="Whatsapp">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" aria-labelledby="title" width={24} height={24}
                 aria-describedby="desc" role="img" xlink="http://www.w3.org/1999/xlink" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" className="feather feather-whatsapp">
