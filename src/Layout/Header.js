@@ -43,14 +43,14 @@ function Header(props) {
                 </span>
               </Col>
               <Col>
-                <a href="https://registry.jsonresume.org/mehdinourollah?theme=StackOverFlow" style="text-decoration:none;"><img src="require('../cv.png)" alt="CV" width="50" height="60" /></a>
-            </Col>
-          </Row>
-        </Container>
-      </span>
+                <a href="https://registry.jsonresume.org/mehdinourollah?theme=StackOverFlow"><span ><b>CV</b></span></a>
+              </Col>
+            </Row>
+          </Container>
+        </span>
 
-    </span>
-    </header >
+      </span>
+    </header>
 
 
   );
