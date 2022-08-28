@@ -1,3 +1,11 @@
+/* @import url('https://fonts.googleapis.com/css?family=Google+Sans'); */
+@font-face {
+    font-family: 'product-sans';
+    src: url('./fonts/Product\ Sans\ Regular.ttf') format('truetype');
+    /* other formats include: 'woff2', 'truetype, 'opentype',
+                              'embedded-opentype', and 'svg' */
+  }
+
 html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%
@@ -316,7 +324,7 @@ button, .button, a.button {
 }
 
 .dark-theme button, .dark-theme .button, .dark-theme a.button {
-    background: #23303d;
+    background: #023535;
     color: inherit
 }
 
@@ -328,7 +336,7 @@ button.outline, .button.outline, a.button.outline {
 }
 
 .dark-theme button.outline, .dark-theme .button.outline, .dark-theme a.button.outline {
-    border-color: #23303d;
+    border-color: #023535;
     color: inherit
 }
 
@@ -383,7 +391,7 @@ button.wide, .button.wide, a.button.wide {
 }
 
 .dark-theme .code-toolbar .toolbar-item a {
-    background: #23303d;
+    background: #023535;
     color: inherit
 }
 
@@ -397,7 +405,7 @@ button.wide, .button.wide, a.button.wide {
 }
 
 .dark-theme .header {
-    background: #23303d
+    background: #023535
 }
 
 .header__right {
@@ -488,7 +496,7 @@ button.wide, .button.wide, a.button.wide {
 }
 
 .dark-theme .menu {
-    background: #23303d
+    background: #023535
 }
 
 @media(max-width:684px) {
@@ -569,7 +577,7 @@ body {
     font-size: 1rem;
     line-height: 1.54;
     background-color: #fff;
-    color: #23303d;
+    color: #023535;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
@@ -587,7 +595,7 @@ body {
 }
 
 body.dark-theme {
-    background-color: #2c3e50;
+    background-color: #042326;
     color: #fff
 }
 
@@ -698,7 +706,7 @@ code {
 }
 
 .dark-theme code {
-    background: #23303d
+    background: #023535
 }
 
 pre {
@@ -804,7 +812,7 @@ hr {
 }
 
 .dark-theme hr {
-    background: #23303d
+    background: #023535
 }
 
 .hidden {
@@ -876,7 +884,7 @@ hr {
 }
 
 .dark-theme .posts:not(:last-of-type) {
-    border-color: #23303d
+    border-color: #023535
 }
 
 .posts-group {
@@ -1060,8 +1068,8 @@ hr {
 }
 
 .dark-theme .pagination__title-h {
-    background: #2c3e50;
-    color: #23303d
+    background: #042326;
+    color: #023535
 }
 
 .pagination__title hr {
@@ -1100,7 +1108,7 @@ hr {
 }
 
 .dark-theme .button {
-    background: #23303d
+    background: #023535
 }
 
 .button+.button {
