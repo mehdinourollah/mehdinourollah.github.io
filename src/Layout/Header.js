@@ -43,7 +43,7 @@ function Header(props) {
                 </span>
               </Col>
               <Col>
-                <a href="https://registry.jsonresume.org/mehdinourollah?theme=onepage" style={{ textDecoration: 'none' }}><span ><b style={{ fontFamily: 'arial' }}>CV</b></span></a>
+                <a href="https://registry.jsonresume.org/mehdinourollah?theme=professional" style={{ textDecoration: 'none' }}><span ><b style={{ fontFamily: 'arial' }}>CV</b></span></a>
               </Col>
             </Row>
           </Container>
